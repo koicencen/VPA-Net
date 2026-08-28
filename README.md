@@ -1,4 +1,10 @@
 # VPA-Net
-A Vessel Prior-Aware Framework for Automated Liver Couinaud Segmentation in CT Scans
+VPA-Net: A Vessel Prior-Aware Framework with Graph-Based Boundary Refinement for Liver Couinaud Segmentation in CT Scans
 
-Coming soon.......................................................................
+Coming soon.
+
+VPA-Net advances liver Couinaud segmentation from appearance-driven prediction toward an anatomy-aware reasoning paradigm, integrating continuous vascular topology modeling with graph-based reasoning over the Couinaud segment organization. By explicitly coupling hepatic vascular topology with liver parenchymal semantics, VPA-Net moves beyond conventional approaches that rely primarily on visual appearance or discrete vascular representations, enabling vascular anatomy to directly guide segment localization and boundary delineation. This anatomy-aware formulation provides a more principled way to model the structural basis of Couinaud segmentation and improves robustness under complex vascular anatomy.
+
+Beyond vascular prior modeling, VPA-Net introduces a new graph-based reasoning paradigm that treats the Couinaud system itself as a structured anatomical graph rather than a set of independent segmentation classes. Each Couinaud segment is represented as a volumetric graph node, while anatomical adjacency between neighboring segments is modeled through adaptive spatial edges. Graph message passing then propagates anatomical context across adjacent segments, allowing the network to explicitly reason about inter-segment relationships and refine ambiguous boundaries. This formulation mitigates boundary leakage and drift, promotes anatomically consistent inter-segmental delineation, and establishes graph-structured anatomical reasoning as a new perspective for Couinaud boundary refinement.
+
+The dataset and source code associated with this study will be made publicly available upon completion of the peer-review process.
