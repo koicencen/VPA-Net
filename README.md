@@ -1,5 +1,5 @@
 # VPA-Net
-VPA-Net: A Vessel Prior-Aware Framework with Graph-Based Boundary Refinement for Liver Couinaud Segmentation in CT Scans
+VPA-Net: A Vessel Prior-Aware Framework with Adaptive Graph-Based Boundary Refinement for Liver Couinaud Segmentation in CT Scans
 
 Coming soon.
 
